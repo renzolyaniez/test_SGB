@@ -1,0 +1,45 @@
+h1{
+    padding: 10px;
+    font-family: monospace;
+    font-size: 3rem;
+}
+
+.list-cards{
+    margin-top: 100px;
+    gap: 22rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 5rem);
+    row-gap: 10rem;
+    margin: 50px;
+    padding: 50px;
+}
+
+.card{
+    background-color: white;
+    box-shadow: 2px 2px 10px 5px gray;
+    border-radius: 5px;
+    width: 300px;
+    height: auto;
+    padding: 5px;
+}
+
+.card h2{
+    font-size: 1.3rem;
+}
+
+.card i{
+    font-size: 1.7rem;
+    border: 2px gray solid;
+    border-radius: 5px;
+    padding: 5px;
+    color: rgb(51, 47, 47);
+    margin-right: 10px;
+}
+
+
+
+@media (max-width: 440px){
+    .list-cards{
+        margin: 2px;
+    }
+}
